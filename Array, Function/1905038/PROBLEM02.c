@@ -9,7 +9,9 @@ int perfect(int n)
 }
 int main()
 {
-    int n,i,s=0;
+    int n;
+    int i;
+    int s=0;
     scanf("%d",&n);
     for(i=1;i<=n;i++)
         if(perfect(i)) s +=i;
